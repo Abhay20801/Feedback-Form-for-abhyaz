@@ -32,10 +32,13 @@
 	</br>
 	</div>
 	</header>
+	<div class="bg-img">
+	<div class="bg-text">
 	<div class="text-center">
-		<h1 id="form-heading">FEEDBACK FORM</h1>
+		<h1 id="form-heading">FEEDBACK FORM!!</h1>
 	</div>
-	<form class="form-div">
+
+	<form class="form-div" method="post" action="#">
 		<label>Overall, how satisfied are you with our product?</label>
 		<select>
 			<option value="Very satisfied">Very satisfied</option>
@@ -73,7 +76,7 @@
 		<label>Is there anything else you would like to share about your experience with our product?</label>
 		<textarea></textarea>
 		<label for="rating">Rating:</label>
-		<select id="rating" name="rating">
+		<select id="rating" name="rating" required>
 			<option value="5">5</option>
 			<option value="4">4</option>
 			<option value="3">3</option>
@@ -91,16 +94,21 @@
 		<label>Phone:</label>
 		<input type="text" required>
 	
-		<div class="text-center">
+		<div class="text-center " id="submitbutton">
 			<input type="submit" value = "Submit" onclick="showMessage()" >
 		</div>
 	</form>
+</div>
+	</div>
 	
+	<!--  -->
 
 </body>
 <footer>
 <p class="text-center">
-	© Copyright 2023 Abhyaz. All rights reserved. Abhyaz reserves the right to after courses & content without prior notice.
-</p>
+	<b>© Copyright 2023 Abhyaz. All rights reserved. Abhyaz reserves the right to after courses & content without prior notice.
+
+	</b>	</p>
 </footer>
+
 </html>
