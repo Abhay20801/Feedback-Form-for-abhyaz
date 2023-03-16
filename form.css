@@ -1,14 +1,16 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: lightgray;
+    /* background-color: lightgray; */
 }
 
 form {
-    background-color: #ffffff;
+   
     padding: 20px;
     margin: 0 auto;
     max-width: 500px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(229, 225, 225);
+    border-radius: 5%;
 }
 
 label {
@@ -61,11 +63,33 @@ h1 {
     display: inline-block;
     margin: 0px,8px,8px,0px;
 }
-.form-div{
-    background-color: lightblue;
-}
+
 .horizontal-list li a:hover{
     color: red;
     border-bottom: 1px solid;
 
+}
+.bg-img{
+    background-image: url('https://media.istockphoto.com/id/1302359276/photo/feedback-coming-out-from-yellow-megaphone-on-blue-background-survey-and-questionnaire-concept.jpg?b=1&s=170667a&w=0&k=20&c=KhpdcWmvng7MuxZTE6IrT6cq1o0J6makxMSEmD0Mq_g=');
+
+    height:100%;
+    background-position:center;
+    margin:-10px;
+    opacity: 90%;
+  
+}
+.bg-txt{
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+}
+#submitbutton{
+    display: flex;
+    justify-content: center;
 }
