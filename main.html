@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEEDBACK FORM</title>
+	<link rel='stylesheet' type='text/css' media='screen' href='form.css'>
+	<script>
+		function showMessage() {
+			alert("Thank you for submitting!");
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<div class="heading-box">
+		<nav>
+			<img src="Abhyaz.logo.jpg" alt="logo" height="70" width="130">
+            <ul class="horizontal-list text-center">
+				
+                <li><a href="#">Home</a>  </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="#bootcamp">Abhyaz Bootcamp</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="#career">Career</a>  </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="#events">Events</a> </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="#Aboutus">About Us</a> </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="#blog">Blog</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="#contactus">Contact us</a></li>
+            </ul>
+         
+        </nav>
+	</br>
+	</div>
+	</header>
+	<div class="text-center">
+		<h1 id="form-heading">FEEDBACK FORM</h1>
+	</div>
+	<form class="form-div">
+		<label>Overall, how satisfied are you with our product?</label>
+		<select>
+			<option value="Very satisfied">Very satisfied</option>
+			<option value="Somewhat satisfied">Somewhat satisfied</option>
+			<option value="Neutral">Neutral</option>
+			<option value="Somewhat dissatisfied">Somewhat dissatisfied</option>
+			<option value="Very dissatisfied">Very dissatisfied</option>
+		</select>
+
+		<label>How easy was it to use our product?</label>
+		<select>
+			<option value="Very easy">Very easy</option>
+			<option value="Somewhat easy">Somewhat easy</option>
+			<option value="Neutral">Neutral</option>
+			<option value="Somewhat difficult">Somewhat difficult</option>
+			<option value="Very difficult">Very difficult</option>
+		</select>
+
+		<label>Did you experience any issues or problems while using our product?</label>
+		<input type="radio" name="issue" value="Yes"> Yes
+		<input type="radio" name="issue" value="No"> No
+
+		<label>If yes, please describe the issue(s) you experienced:</label>
+		<textarea></textarea>
+
+		<label>How likely are you to recommend our product to a friend or colleague?</label>
+		<select>
+			<option value="Very likely">Very likely</option>
+			<option value="Somewhat likely">Somewhat likely</option>
+			<option value="Neutral">Neutral</option>
+			<option value="Somewhat unlikely">Somewhat unlikely</option>
+			<option value="Very unlikely">Very unlikely</option>
+		</select>
+
+		<label>Is there anything else you would like to share about your experience with our product?</label>
+		<textarea></textarea>
+		<label for="rating">Rating:</label>
+		<select id="rating" name="rating">
+			<option value="5">5</option>
+			<option value="4">4</option>
+			<option value="3">3</option>
+			<option value="2">2</option>
+			<option value="1">1</option>
+		</select>
+	</br>
+</br>
+		<label>Name:</label>
+		<input type="text" required>
+
+		<label>Email:</label>
+		<input type="text" placeholder="abc@xyz.com" required>
+
+		<label>Phone:</label>
+		<input type="text" required>
+	
+		<div class="text-center">
+			<input type="submit" value = "Submit" onclick="showMessage()" >
+		</div>
+	</form>
+	
+
+</body>
+<footer>
+<p class="text-center">
+	© Copyright 2023 Abhyaz. All rights reserved. Abhyaz reserves the right to after courses & content without prior notice.
+</p>
+</footer>
+</html>
